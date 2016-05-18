@@ -1,3 +1,2 @@
-Git_Workspace
-start_mylearn
-continue_mylearn
+Records My Footprints
+To be a better man
