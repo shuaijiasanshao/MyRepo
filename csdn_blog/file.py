@@ -34,19 +34,3 @@ class File(object):
     def save_file(self, file_object, file_name, content):
         content.encode('utf-8')
         file_object.write(content)
-
-
-# def main():
-#     file_name = 'blog_info'
-#     file = File()
-#     # article_name = ["11111111", "222222222"]
-#     # article_url = ["11111111", "222222222"]
-#     # file_write_file = file.opne_file(file_name, "w")
-#     # for index, value in enumerate(article_name):
-#     #     content = value + " " + article_url[index] + '\n'
-#     #     file.save_file(file_write_file, file_name, content)
-#     # file_write_file.close()
-#     print(file.read_file(file_name))
-
-# if __name__ == '__main__':
-#     main()

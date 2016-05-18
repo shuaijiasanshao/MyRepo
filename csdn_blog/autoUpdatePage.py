@@ -58,11 +58,3 @@ class AutoUpdaPage(object):
                     time.sleep(0.1)
             if j >= max_count:
                 break
-
-
-def main():
-    updatepage = AutoUpdaPage()
-    updatepage.auto_update_page()
-
-if __name__ == '__main__':
-    main()
