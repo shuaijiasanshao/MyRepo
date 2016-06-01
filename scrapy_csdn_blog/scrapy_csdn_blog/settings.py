@@ -16,6 +16,11 @@ NEWSPIDER_MODULE = 'scrapy_csdn_blog.spiders'
 
 LOG_LEVEL= 'DEBUG'
 LOG_FILE ='log.txt'
+
+ITEM_PIPELINES = {
+    'scrapy_csdn_blog.pipelines.JsonWriterPipeline': 800,
+    'scrapy_csdn_blog.pipelines.MongodbWriterPipeline':600,
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrapy_csdn_blog (+http://www.yourdomain.com)'
 

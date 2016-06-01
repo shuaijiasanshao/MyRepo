@@ -8,7 +8,7 @@ class CSDNBlogSpider(scrapy.spiders.Spider):
     
     name = "csdn_blog_spider"
     allowed_domains = ["blog.csdn.net"]
-    # 博客的总的入口
+    # 博客的入口
     start_urls = ['http://blog.csdn.net/shuaijiasanshao/']
 
     def parse(self, response):
