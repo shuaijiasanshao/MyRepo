@@ -1,13 +1,13 @@
 ##仿openstack Restful风格实现<br>
 
 ##环境<br>
-Ubuntu14.04
-Python2.7
-PasteDeploy
-oslo.config
-wsgi
-evenlet
-....
+Ubuntu14.04<br>
+Python2.7<br>
+PasteDeploy<br>
+oslo.config<br>
+wsgi<br>
+evenlet<br>
+....<br>
 
 ##说明
 server.py 读取配置，启动app<br>
