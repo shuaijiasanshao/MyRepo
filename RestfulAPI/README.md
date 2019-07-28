@@ -1,6 +1,6 @@
-##仿openstack Restful风格实现<br>
+# 仿openstack Restful风格实现<br>
 
-##环境<br>
+## 环境<br>
 Ubuntu14.04<br>
 Python2.7<br>
 PasteDeploy<br>
@@ -9,7 +9,7 @@ wsgi<br>
 evenlet<br>
 ....<br>
 
-##说明
+## 说明
 server.py 读取配置，启动app<br>
 server_api.ini 发现和配置WSGI<br>
 server_config.conf 服务器配置文件<br>
