@@ -1,10 +1,10 @@
-##环境
+## 环境
 Ubuntu14.04<br>
 Python2.7<br>
 PyQuery<br>
 PyMongo<br>
 
-##说明
+## 说明
 一个自动爬取CSDN博客刷访问量的系统．<br>
 系统首先自动爬取你的CSDN所有博客保存，然后一篇一篇的访问刷新，<br>
 可以使用mongodb存博客信息，也可以将博客信息写在文件中．<br>
